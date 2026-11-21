@@ -1,0 +1,20 @@
+meta {
+  name: POST tambah data
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/api/informasi
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "judul": "Promo Akhir Pekan",
+    "kategori": "Promo",
+    "ringkasan": "Diskon 20% setiap Sabtu dan Minggu.",
+    "deskripsiLengkap": "Dapatkan diskon 20% untuk semua menu kopi setiap Sabtu dan Minggu di seluruh cabang."
+  }
+}

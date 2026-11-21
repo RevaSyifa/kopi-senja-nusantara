@@ -1,0 +1,20 @@
+:root{--tua:#3B2416;--sedang:#5A3A24;--krem:#FBF4EA;--karamel:#D98A3D;--garis:#E6D3BA}
+body{background:var(--krem);color:var(--tua);font-family:'Segoe UI',system-ui,sans-serif}
+h1,h2,h3,.navbar-brand{font-family:Georgia,'Times New Roman',serif}
+.navbar-kopi{background:var(--tua)}
+.navbar-kopi .navbar-brand,.navbar-kopi .nav-link{color:#F6E7D0}
+.navbar-kopi .nav-link:hover{color:var(--karamel)}
+.navbar-kopi .navbar-toggler{border-color:#E8C9A0;filter:invert(1)}
+.btn-karamel{background:var(--karamel);color:var(--tua);border:0;font-weight:600;transition:.2s}
+.btn-karamel:hover{background:#c27530;color:#fff;transform:translateY(-2px)}
+.btn-outline-kopi{border:1px solid var(--sedang);color:var(--sedang);transition:.2s}
+.btn-outline-kopi:hover{background:var(--sedang);color:var(--krem)}
+.hero{background:var(--sedang);color:#F6E7D0;padding:5rem 0;text-align:center}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem)}
+.hero p{color:#E8C9A0}
+.card-kopi{background:#fff;border:1px solid var(--garis);border-radius:10px;overflow:hidden;height:100%;transition:.25s}
+.card-kopi:hover{transform:translateY(-6px);box-shadow:0 10px 24px rgba(59,36,22,.15)}
+.card-kopi img{height:170px;object-fit:cover;width:100%}
+.badge-kopi{background:var(--karamel);color:var(--tua)}
+.box-form{background:#fff;border:1px solid var(--garis);border-radius:12px;padding:2rem;max-width:440px;width:100%}
+.footer-kopi{background:var(--tua);color:#E8C9A0}

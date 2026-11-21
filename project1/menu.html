@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu Utama | Kopi Senja Nusantara</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+<nav class="navbar navbar-expand-lg navbar-kopi">
+<div class="container">
+<a class="navbar-brand" href="index.html"><i class="bi bi-cup-hot-fill me-2"></i>Kopi Senja</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2"><li class="nav-item"><span class="nav-link" id="sapaan"></span></li><li class="nav-item"><button class="btn btn-karamel btn-sm" id="logout">Logout</button></li></ul></div>
+</div>
+</nav>
+<main class="container py-5">
+<h2 class="mb-1">Selamat datang, <span id="nama"></span></h2>
+<p class="mb-4">Pilih menu di bawah ini.</p>
+<div class="row g-4">
+<div class="col-6 col-lg-3"><a href="index.html#info" class="text-decoration-none"><div class="card-kopi p-4 text-center"><i class="bi bi-cup-hot fs-1"></i><h5 class="mt-2">Lihat Menu Kopi</h5></div></a></div>
+<div class="col-6 col-lg-3"><a href="detail.html?id=4" class="text-decoration-none"><div class="card-kopi p-4 text-center"><i class="bi bi-mortarboard fs-1"></i><h5 class="mt-2">Info Workshop</h5></div></a></div>
+<div class="col-6 col-lg-3"><a href="detail.html?id=5" class="text-decoration-none"><div class="card-kopi p-4 text-center"><i class="bi bi-geo-alt fs-1"></i><h5 class="mt-2">Cabang</h5></div></a></div>
+<div class="col-6 col-lg-3"><a href="detail.html?id=6" class="text-decoration-none"><div class="card-kopi p-4 text-center"><i class="bi bi-telephone fs-1"></i><h5 class="mt-2">Kontak</h5></div></a></div>
+</div></main>
+<footer class="footer-kopi text-center py-3 mt-auto"><small>@Copyright by 24552011342_REVA SYIFA TAMARA TIF RP 24E CNS</small></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/menu.js"></script></body></html>

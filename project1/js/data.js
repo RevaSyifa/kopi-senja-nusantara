@@ -1,0 +1,10 @@
+// Data dummy informasi perusahaan (dipakai ulang untuk API di Project 2)
+const ph = (t) => `https://placehold.co/600x400/5A3A24/FBF4EA?text=${encodeURIComponent(t)}`;
+const dataInformasi = [
+  { id: 1, judul: "Tentang Kopi Senja", kategori: "Profil", ringkasan: "Kedai kopi specialty yang berdiri sejak 2018 di Bandung.", deskripsiLengkap: "Kopi Senja Nusantara berdiri tahun 2018 dengan misi mengenalkan kopi single origin Indonesia. Kami bekerja langsung dengan petani agar harga adil dan kualitas biji terjaga.", gambar: ph("Kopi Senja") },
+  { id: 2, judul: "Menu Kopi Andalan", kategori: "Menu Kopi", ringkasan: "Espresso, V60, dan signature latte karamel senja.", deskripsiLengkap: "Menu andalan kami: Es Kopi Senja (susu dan gula aren), V60 Gayo, Flat White Toraja, dan Karamel Senja Latte. Semua dibuat dari biji yang disangrai setiap pekan.", gambar: ph("Menu Kopi") },
+  { id: 3, judul: "Asal Biji Kopi", kategori: "Asal Biji", ringkasan: "Gayo, Toraja, Flores, dan Kintamani.", deskripsiLengkap: "Gayo (Aceh) beraroma buah dan lembut. Toraja (Sulawesi) bertubuh tebal dengan rasa rempah. Flores Bajawa beraroma cokelat. Kintamani (Bali) segar dengan sentuhan jeruk.", gambar: ph("Asal Biji") },
+  { id: 4, judul: "Workshop Barista", kategori: "Workshop", ringkasan: "Belajar seduh manual dan latte art setiap Sabtu.", deskripsiLengkap: "Workshop dibuka setiap Sabtu pukul 10.00 WIB, maksimal 10 peserta. Materi: dasar seduh manual, espresso, dan latte art. Biaya Rp250.000 sudah termasuk bahan dan sertifikat.", gambar: ph("Workshop") },
+  { id: 5, judul: "Cabang Kami", kategori: "Cabang", ringkasan: "Tersedia di Bandung, Lembang, dan Jakarta.", deskripsiLengkap: "Cabang Dago (Bandung) buka 08.00-22.00, cabang Lembang buka 09.00-21.00, dan cabang Kemang (Jakarta) buka 08.00-23.00. Semua cabang menyediakan area kerja dan Wi-Fi.", gambar: ph("Cabang") },
+  { id: 6, judul: "Hubungi Kami", kategori: "Kontak", ringkasan: "Pesan, kerja sama, atau tanya produk.", deskripsiLengkap: "Email: halo@kopisenja.id. WhatsApp: 0812-0000-0000. Instagram: @kopisenja.nusantara. Kami membalas pesan setiap hari kerja pukul 09.00-17.00 WIB.", gambar: ph("Kontak") }
+];
